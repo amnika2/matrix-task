@@ -1,0 +1,23 @@
+{
+  "selected_on_validation": {
+    "rule": "smallest SVD dimension within allowed mean Recall drop; else original",
+    "max_drop_percentage_points": 1.0,
+    "method": "svd",
+    "dimension": 256,
+    "validation_mean_recall": 80.66666666666667,
+    "svd_sha256": "83daccee722f13658c298d93b01239debd58ae8164d9fc2dc5c78d59f470552a",
+    "validation_features_sha256": "257c95649c0fa26e9c5e48c720412be30dc8e7d6a4f4922c6a05707382419283"
+  },
+  "test": {
+    "method": "svd",
+    "dimension": 256,
+    "seed": "",
+    "T2I_R@1": 53.54,
+    "T2I_R@5": 80.6,
+    "T2I_R@10": 88.88,
+    "I2T_R@1": 69.9,
+    "I2T_R@5": 91.4,
+    "I2T_R@10": 95.6,
+    "mean_recall": 79.98666666666666
+  }
+}

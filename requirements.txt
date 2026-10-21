@@ -1,0 +1,11 @@
+# Install a matching torch + torchvision pair separately for your server GPU.
+numpy>=1.26,<3
+Pillow>=10,<13
+datasets>=3,<5
+huggingface-hub>=0.27,<2
+matplotlib>=3.8,<4
+tqdm>=4.66,<5
+ftfy>=6.2,<7
+regex>=2024.5
+packaging>=24
+clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33

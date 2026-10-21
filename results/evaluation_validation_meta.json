@@ -1,0 +1,24 @@
+{
+  "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.7.1+cu126",
+    "torchvision": "0.22.1+cu126",
+    "numpy": "2.2.6",
+    "Pillow": "12.3.0",
+    "datasets": "4.8.5",
+    "clip": "1.0"
+  },
+  "device": "cuda",
+  "cuda_runtime": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch_threads": 4,
+  "tf32": false,
+  "repeats": 30,
+  "warmups": 5,
+  "random_seeds": null,
+  "split": "validation",
+  "timing_scope": "in-memory float32 matmul; synchronized; excludes ranking/transfer/encoding",
+  "feature_sha256": "257c95649c0fa26e9c5e48c720412be30dc8e7d6a4f4922c6a05707382419283",
+  "svd_sha256": "83daccee722f13658c298d93b01239debd58ae8164d9fc2dc5c78d59f470552a"
+}

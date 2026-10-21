@@ -1,0 +1,12 @@
+{
+  "shape": [
+    12000,
+    512
+  ],
+  "centered": false,
+  "dtype": "float64",
+  "svd_fit_seconds": 0.6076795621775091,
+  "numpy": "2.2.6",
+  "orthogonality_max_abs": 3.3306690738754696e-15,
+  "rank_numeric": 512
+}

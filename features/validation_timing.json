@@ -1,0 +1,31 @@
+{
+  "manifest_sha256": "9559339fc3c111c8861d7f59a77ddc2a260fcc77a0bd688059b9bf37e1a68cc6",
+  "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "model": "ViT-B/32",
+  "precision": "float32",
+  "split": "validation",
+  "train_caption": 0,
+  "token_truncation": true,
+  "image_extract_seconds": 2.4398142606951296,
+  "text_extract_seconds": 1.8469921159557998,
+  "timing_scope": "image: decode/preprocess/H2D/encode/D2H; text: tokenize/H2D/encode/D2H; excludes model load and final normalization/save",
+  "batch_size": 64,
+  "workers": 4,
+  "environment": {
+    "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+    "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.7.1+cu126",
+      "torchvision": "0.22.1+cu126",
+      "numpy": "2.2.6",
+      "Pillow": "12.3.0",
+      "datasets": "4.8.5",
+      "clip": "1.0"
+    },
+    "device": "cuda",
+    "cuda_runtime": "12.6",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "torch_threads": 4,
+    "tf32": false
+  }
+}

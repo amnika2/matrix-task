@@ -1,0 +1,33 @@
+{
+  "max_cosine_abs_error_float64": 1.8318679906315083e-15,
+  "max_cosine_abs_error_float32": 9.834766387939453e-07,
+  "recall_delta_percentage_points": {
+    "T2I_R@1": 0.0,
+    "T2I_R@5": 0.0,
+    "T2I_R@10": 0.0,
+    "I2T_R@1": 0.0,
+    "I2T_R@5": 0.0,
+    "I2T_R@10": 0.0,
+    "mean_recall": 0.0
+  },
+  "raw": {
+    "T2I_R@1": 54.76,
+    "T2I_R@5": 81.76,
+    "T2I_R@10": 89.12,
+    "I2T_R@1": 72.7,
+    "I2T_R@5": 92.0,
+    "I2T_R@10": 96.3,
+    "mean_recall": 81.10666666666667
+  },
+  "svd512": {
+    "T2I_R@1": 54.76,
+    "T2I_R@5": 81.76,
+    "T2I_R@10": 89.12,
+    "I2T_R@1": 72.7,
+    "I2T_R@5": 92.0,
+    "I2T_R@10": 96.3,
+    "mean_recall": 81.10666666666667
+  },
+  "passed_similarity_tolerance": true,
+  "note": "微小 Recall 差别可能来自近似同分结果的浮点排序；明显差别需要排查。"
+}

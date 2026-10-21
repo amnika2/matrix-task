@@ -1,0 +1,9 @@
+{
+  "rule": "smallest SVD dimension within allowed mean Recall drop; else original",
+  "max_drop_percentage_points": 1.0,
+  "method": "svd",
+  "dimension": 256,
+  "validation_mean_recall": 80.66666666666667,
+  "svd_sha256": "83daccee722f13658c298d93b01239debd58ae8164d9fc2dc5c78d59f470552a",
+  "validation_features_sha256": "257c95649c0fa26e9c5e48c720412be30dc8e7d6a4f4922c6a05707382419283"
+}
